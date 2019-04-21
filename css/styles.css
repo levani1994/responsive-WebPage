@@ -13,7 +13,7 @@ a{
 .row{
 
 	margin-top: 100px;
-	margin-left: 0px;
+	
 	margin-right: 0px;
 }
 .image{
@@ -24,6 +24,7 @@ a{
 .container{
 	padding-left: 10px;
 	padding-right: 10px;
+	text-align: center;
 
 }
 .fa-facebook{
@@ -83,10 +84,6 @@ h3{
 
 	height:  200px;
 
-	
-
-	
-
 	float:right;
 
 }
@@ -94,10 +91,6 @@ h3{
 .box2{
 
 	height:  200px;
-
-	
-
-	
 
 	float: left;
 
@@ -107,4 +100,24 @@ h3{
 
 	clear: both;
 
+}
+
+iframe{
+	width: 80%;
+	height: 250px;
+
+}
+.ruka{
+	text-align: center;
+}
+.carousel-item{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	margin-top: 20px;
+
+}
+.carousel{
+	padding-bottom: 100px;
 }
