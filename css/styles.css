@@ -7,20 +7,29 @@
 
 
 }
+body{
+	background-color: lavender;
+}
+@media screen and (max-width: 767px){
+  body{
+	background-color: white;
+   }
+}
 a{
     color: #737373;
 }
 .row{
 
 	margin-top: 100px;
-	
-	margin-right: 0px;
-}
-.image{
-	width: : 200px;
-	margin: 15px 15px;
+
 
 }
+.image{
+    
+	margin-bottom: 15px;
+border-style: double;
+}
+
 .container{
 	padding-left: 10px;
 	padding-right: 10px;
@@ -82,15 +91,20 @@ h3{
 }
 .box1{
 
-	height:  200px;
+	height: 200px;
 
-	float:right;
+	float: right;
 
+}
+@media screen and (max-width: 991px){
+  .box1{
+	float: left;
+   }
 }
 
 .box2{
 
-	height:  200px;
+	height: 200px;
 
 	float: left;
 
@@ -111,13 +125,12 @@ iframe{
 	text-align: center;
 }
 .carousel-item{
+	width: 100%;
+	height: 500px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 600px;
-	margin-top: 20px;
 
 }
 .carousel{
 	padding-bottom: 100px;
-}
