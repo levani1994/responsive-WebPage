@@ -119,6 +119,7 @@ h3{
 iframe{
 	width: 80%;
 	height: 250px;
+	frameborder: 0px;
 
 }
 .ruka{
